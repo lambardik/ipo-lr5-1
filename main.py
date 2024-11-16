@@ -1,9 +1,18 @@
-text = input("Введите строку: ")
-vowels = "аеёиоуыэюя"
-consonants = "бвгджзйклмнпрстфхцчшщ"
-vowel_count = sum(1 for char in text.lower() if char in vowels)
-consonant_count = sum(1 for char in text.lower() if char in consonants)
+string = str(input("Введите строку: ")) 
+print("Длина строки:",len(string)) 
 
-print(f"Длина строки: {len(text)}")
-print(f"Количество гласных: {vowel_count}")
-print(f"Количество согласных: {consonant_count}")
+glasnye = 0 
+soglasnye = 0
+
+string = string.lower() 
+
+glasn = ["Аа","Уу","Оо","Ии","Ээ","Ее","Ёё","Яя","Юю"] 
+
+for i in string: 
+    if i in glasn:
+        glasnye+=1
+    else:
+        soglasnye+=1
+        
+print("Количество гласных: ",glasnye)
+print("Количество согласных: ",soglasnye)
