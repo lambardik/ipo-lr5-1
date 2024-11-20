@@ -14,5 +14,5 @@ for i in string:
     else:
         soglasnye+=1
         
-print("Количество гласных: ",glasnye)
-print("Количество согласных: ",soglasnye)
+print("Кол-во гласных: ",glasnye)
+print("Кол-во согласных: ",soglasnye)
