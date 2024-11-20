@@ -9,7 +9,7 @@ string = string.lower()
 glasnye = ["Аа","Уу","Оо","Ии","Ээ","Ее","Ёё","Яя","Юю"] 
 
 for i in string: 
-    if i in glasn:
+    if i in glasnye:
         glasnye+=1
     else:
         soglasnye+=1
