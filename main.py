@@ -6,7 +6,7 @@ soglasnye = 0
 
 string = string.lower() 
 
-glasn = ["Аа","Уу","Оо","Ии","Ээ","Ее","Ёё","Яя","Юю"] 
+glasnye = ["Аа","Уу","Оо","Ии","Ээ","Ее","Ёё","Яя","Юю"] 
 
 for i in string: 
     if i in glasn:
