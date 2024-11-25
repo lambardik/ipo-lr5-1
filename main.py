@@ -1,18 +1,17 @@
 string = str(input("Введите строку: ")) 
 print("Длина строки:",len(string)) 
-
-glasnye = 0 
+glasnye = 0
 soglasnye = 0
 
 string = string.lower() 
 
-glasnye = ["Аа","Уу","Оо","Ии","Ээ","Ее","Ёё","Яя","Юю"] 
+glas = ["а","у","о","и","э","е","ё","я","ю"] 
 
 for i in string: 
-    if i in glasnye:
+    if i in glas:
         glasnye+=1
     else:
         soglasnye+=1
         
-print("Кол-во гласных: ",glasnye)
-print("Кол-во согласных: ",soglasnye)
+print("Количество гласных: ",glasnye)
+print("Количество согласных: ",soglasnye)
