@@ -7,9 +7,11 @@ string = string.lower()
 
 glas = ["а","у","о","и","э","е","ё","я","ю"] 
 
-for i in string: 
+for i in stroka: 
     if i in glas:
         glasnye+=1
+    elif i ==" ":
+        continue
     else:
         soglasnye+=1
         
