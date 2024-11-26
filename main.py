@@ -1,13 +1,13 @@
-string = str(input("Введите строку: ")) 
-print("Длина строки:",len(string)) 
+stroka = str(input("Введите строку: ")) 
+print("Длина строки:",len(stroka)) 
 glasnye = 0
 soglasnye = 0
 
-string = string.lower() 
+stroka = stroka.lower() 
 
 glas = ["а","у","о","и","э","е","ё","я","ю"] 
 
-for i in string: 
+for i in stroka: 
     if i in glas:
         glasnye+=1
     else:
